@@ -1,0 +1,72 @@
+body {background-color: black;
+        color:white;
+        font-family:Arial, Sans-Serif;
+        margin-top:10px;
+  }
+  .navigation-bar {background-color:orange; color:black; display:flex; position:fixed;top:0;
+		 left:0;
+		 right:0;
+		 padding-top:6px;
+		 padding-bottom:2px;
+		 padding-left:2px;
+		 align-items:center;
+		 gap:48px;
+		 box-shadow:0 2px 8px rgba(0,0,0,.4);
+  }
+  .menu-icon {height:28px;
+              width:28px;
+  }
+  .about {min-height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .avatar1 {height:28px;
+            width:28px;
+  }
+  .avatar2 {height:24px;
+            width:24px;
+  }
+  .avatar3 {height:26px;
+            width:26px;
+  }
+  .pack {display:flex;
+         justify-content: center;
+         align-items: center;
+         margin:20px 0;
+  }
+.ppack {height:121px;
+        width:120px;
+        border-radius: 180px;
+}
+.track {display:flex;
+         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap:12px;
+}
+  .download-text {display:flex;
+                  align-items: center;
+                  text-align: center;
+                  justify-content: center;
+  }
+  .download-text h2 {text-shadow: 0 0 20px black;
+  } 
+  
+   .download-btn{ background:orange;
+    color:black;
+    padding:10px 18px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.copyrights {display:flex;
+                  align-items: center;
+                  text-align: center;
+                  justify-content: center;
+                  flex-direction: column;
+                  gap:12px;
+}
